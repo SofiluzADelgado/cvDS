@@ -1,0 +1,134 @@
+.content{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.header_name{
+    text-align: center;
+    font-weight: 900;
+    font-size: xxx-large;
+    margin-bottom: 0px;
+}
+
+.header_lastName{
+    color: #c594aa;
+}
+
+.header_profile{
+    text-align: center;
+    font-size: medium;
+    font-weight: 100;
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+}
+
+.header_aboutMe{
+    position: relative;
+    padding: 4rem;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.header_aboutMe_text{
+    text-align: center;
+}
+
+.body{
+    position: relative;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+
+
+} 
+
+.body_title{
+    font-size: larger;
+    color: #8f6277;
+}
+
+.body_detalle{
+    font-style: italic;
+}
+
+.body_text_salient{
+    color:#c594aa;
+    font-weight: bold;
+}
+
+.body_infoWork_ex{
+    width: 25%;
+}
+
+.body_infoWork_st{
+    width: 25%;
+}
+
+.body_infoWork_sk{
+    width: 25%;
+}
+
+.body_infoWork{
+display: flex;
+    justify-content: center;
+}
+
+.contact{
+    display: flex;
+}
+
+.contact_info {
+    padding: 2rem;
+    width: 40%;
+    background-color: #fdcae1;
+    border-radius: 5px;
+}
+
+.contact_form {
+    width: 60%;
+    padding: 2rem;
+    box-shadow: 5px 6px 14px 1px rgba(232,212,212,1);
+}
+
+.contact_info_label{
+font-size: large;
+    background: white;
+    color: hotpink;
+    padding-left: 1rem;
+}
+
+.contact_info_description{
+color: #8f6277;
+    font-size: medium;
+}
+
+.contact_form_submit{
+    background-color: #c594aa;
+    color: white;
+    height: 2rem;
+    width: 6rem;
+    border: none;
+    font-size: medium;
+}
+
+input {
+    border: 1px solid #ff69b4;
+    background-color: #ffff;
+    height: 2rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 5px;
+}
+
+textarea {
+    border: 1px solid #ff69b4;
+    background-color: #ffff;
+    width: 100%!important;
+    padding: 5px;
+}
